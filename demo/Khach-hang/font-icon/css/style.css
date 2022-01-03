@@ -1,0 +1,96 @@
+html{
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #E5E5E5;
+}
+
+.app{
+    background-color: white;
+}
+
+/* Header */
+.navbar{
+    display: flex;
+}
+
+.logo{
+    width: 189px;
+    height: 78px;
+    margin-top: 42px;
+    margin-left: 28px;
+    cursor: pointer;
+
+}
+
+
+
+.navbar_search .search{
+    width: 454px;
+    height: 46px;
+    margin-top: 58px;
+    border-radius: 30px;
+    border: none;
+    background: #E9E2D5;
+    margin-left: 30px;
+    outline: none;
+}
+
+.search{
+    padding-left: 70px;
+    font-size: 24px;
+    color: #000;
+    line-height: 24px;
+    position: relative;
+}
+
+.search_icon{
+    width: 37px;
+    height: 43px;
+    position: relative;
+    transform: translateX(-1391%) translateY(35%);
+}
+
+.icons .login_icon {
+    width: 51px;
+    height: 46px;
+    margin-left: 10px;
+    margin-top: 58px;
+    cursor: pointer;
+
+}
+
+.icons .cart_icon {
+    width: 51px;
+    height: 46px;
+    margin-left: 15px;
+    margin-top: 58px;
+    cursor: pointer;
+
+}
+
+ .text_list{
+    margin-top: 65px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text_list>a {
+    color: black;
+    text-decoration: none;
+    text-align: 24px;
+    font-weight: 600;
+    color: #874B23;
+    padding: 0 20px;
+}
+
+.text-border {
+    border: 0.1px solid #874B23;
+    height: 4.6px;
+}
+
+
+
+
+

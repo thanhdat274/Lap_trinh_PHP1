@@ -1,0 +1,15 @@
+body{
+    width: 80%;
+    margin: 20px auto;
+}
+table,th,td{
+    border: 1px solid #000;
+}
+a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}

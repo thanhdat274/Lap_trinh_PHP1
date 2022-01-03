@@ -1,0 +1,109 @@
+/* input */
+.label-user>input {
+    width: 805px;
+    height: 50px;
+    margin-top: 15px;
+    padding-left: 15px;
+    background-color: #E9E2D5;
+    border: none;
+    outline: none;
+    line-height: 24px;
+    font-size: 21px;
+    font-family: Noto Serif;
+    line-height: 84%;
+
+}
+
+.label-pass>input {
+    width: 805px;
+    height: 50px;
+    margin-top: 15px;
+    padding-left: 15px;
+    background-color: #E9E2D5;
+    border: none;
+    outline: none;
+    line-height: 24px;
+    font-size: 21px;
+    font-family: Noto Serif;
+    line-height: 84%;
+}
+
+/* form */
+.login-container {
+    width: 882px;
+    height: 612px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+}
+
+.login-container>h1 {
+    text-align: center;
+    margin: 31px;
+    color: #874B23;
+}
+
+.form-login {
+    padding-top: 40px;
+    margin: 30px;
+    color: #874B23;
+
+}
+
+.label-user,
+.label-pass {
+    padding-top: 40px;
+}
+
+.label-user>label {
+    line-height: 24px;
+    font-size: 21px;
+    font-family: Noto Serif;
+    line-height: 84%;
+}
+
+.ip-checkbox>input {
+    width: 14px;
+    margin-left: 23px;
+    margin-top: 35px;
+
+}
+
+.content-checkbox {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Noto Serif;
+    color: #874B23;
+    position: absolute;
+    margin: 15px;
+}
+
+.form-submit {
+    width: 153px;
+    height: 44px;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    border: 1px solid #E9E2D5;
+    background-color: #E9E2D5;
+}
+
+.form-submit>button {
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    margin: 10px;
+    background-color: #E9E2D5;
+    color: #874B23;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.form-submit>p {
+    margin-top: 26px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #BD1818;
+    cursor: pointer;
+}

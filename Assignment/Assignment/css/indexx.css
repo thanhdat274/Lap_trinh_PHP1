@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1440px;
+    margin: auto;
+    background-color: #f7f6f4;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 165px;
+    margin-right: 165px;
+    gap: 180px;
+}
+.logo{
+    margin-top: 15px;
+}
+li{
+    list-style: none;
+}
+#main{
+    display: flex;
+}
+nav #main li a{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    color: #333333;
+}
+nav #main li:hover a{
+    background: #d8c48e;
+    transition: all 500ms ease;
+}
+.bag{
+    margin-top: 15px;
+    margin-left: 85px;
+    font-size: 25px;   
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+
+}
+.bag a{
+    color: #333;
+}
+.bag i:hover{
+    color: red;
+}
+.banner{
+    width: 1110px;
+    height: 505px;
+    background: #F1DDC9;
+    margin-left: 165px;
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 70px;
+}
+.banner-img img{
+    width: 325px;
+    height: 467px;
+    margin-left: 106px;
+    margin-top: 20px;
+    
+}
+.banner-text p{
+    font-size: 16px;
+    width: 494px;
+    margin-top: 32px;
+}
+.banner-title a{
+    font-size: 60px;
+    text-decoration: none;
+    color: #333333;
+    
+}
+.banner-title{
+    margin-top: 65px;
+}
+.banner-title a:hover{
+    color: #c23616;
+}
+.more-banner{
+   
+    margin-top: 8px;
+}
+.more-banner a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+}
+.more-banner a:hover{
+    color: red;
+}
+.add-car-banner{
+    width: 208px;
+    height: 62px;
+    background:  #D84727;
+    margin-top: 44px;
+    cursor: pointer;
+}
+.add-car-banner a{
+   padding: 18px 35px;
+   font-size: 23px;
+position: relative;
+top: 15px;
+   
+}
+.add-car-banner a{
+    text-decoration: none;
+   color: white;
+}
+.add-car-banner a:hover{
+    color: black;
+}
+.content-item{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0 165px;
+    gap: 30px;
+    line-height: 25px;
+}
+.content-item-no{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 75px;
+    background: white;
+    padding: 30px;
+}
+.content-title a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #333333;
+}
+.content-title a:hover{
+    color: brown;
+}
+.content-title p{
+    margin-top: 8px;
+    font-size: 16px;
+}
+.content-more a{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.content-img {
+    overflow: hidden;
+}
+.content-img:hover img{
+    transform: scale(1.2);
+    margin-left: 20px;
+}
+.title-technno{
+    padding: 50px 165px;
+}
+.title-technno h3{
+    font-size: 36px;
+    color: #333333;
+}
+.techno-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   padding: 0 165px;
+   gap: 30px;
+}
+.techno-item{
+    width: 220px;
+    height: 425px;
+    background: white;
+    padding: 20px 16px;
+    line-height: 27px;
+    overflow: hidden;
+}
+.techno-item img{
+    width: 221px;
+    height: 221px;
+}
+.techno-img{
+    overflow: hidden;
+}
+.techno-img img:hover{
+    transform: scale(1.2);
+}
+.techno-item a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #333333;
+    
+}
+.techno-item a:hover{
+    color: #c23616;
+}
+.techno-text {
+    margin-top: 32px;
+    
+}
+del{
+    color: red;
+}
+.techno-text h5{
+    font-size: 17px
+}
+.add-car-techno{
+    background: #D84727;
+    width: 220px;
+    height: 39px;
+    margin-top: 20px;
+}
+.add-car-techno a{
+    font-size: 16px;
+    color: white;
+    padding: 10px 65px;
+    position: relative;
+    top: 7px;
+}
+.add-car-techno a:hover{
+    color: black;
+}
+.title-news{
+    padding: 75px 165px;
+}
+.title-news h3{
+    font-size: 36px;
+    color: #333333;
+}
+.techno-news{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.news-text{
+    padding: 8px 165px;
+}
+.news-text p{
+    color: #777777;
+    font-size: 20px;
+}
+.news-text a{
+    font-size: 36px;
+    text-decoration: none;
+    color: #333333;
+}
+.news-text a:hover{
+    color: #c23616;
+}
+.more-news{
+    margin-top: 60px;
+}
+.more-news a{
+    font-size: 16px;
+    padding:10px 30px;
+    border: 2px solid orangered;    
+}
+.footer-top{
+    background: #DA5E42;
+    width: 1440px;
+    height: 273px;
+    margin-top: 50px;
+}
+.pay-top{
+    text-align: center;
+    padding: 30px ;
+}
+.pay-top img{
+    padding: 0 50px;
+}
+.pay-buttom{
+    text-align: center;
+    
+}
+.pay-buttom img{
+    padding: 0 50px;
+}
+.footer-contact{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 0 165px;
+    height: 345px;
+    background: #D84727;
+}
+.footer-text{
+    width: 255px;
+    line-height: 30px;
+    margin-top: 51px;
+    color: white;
+}
+.add{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.title-h4{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.footer-text h3{
+    font-size: 25px;
+}
+.text-p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.text-p1{
+    font-size: 18px;
+}
+.text-p2{
+    font-size: 18px;
+}
+.footer-text i{
+    font-size: 25px;
+    margin-top: 36px;
+    padding: 0 10px;
+}
+.footer-text a{
+    color: white;
+}
+.footer-text a{
+    text-decoration: none;
+}
+.footer-text a:hover{
+    color: black;
+    transition: all 0.5s ;
+}
+.footer-link a{
+    position: relative;
+    top: 20px;
+}

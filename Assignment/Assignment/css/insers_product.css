@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto;
+}
+h3{
+    color: rgb(48, 46, 46);
+    margin-left: 30px;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background: gray;
+    height: 70px;
+    align-items: center;
+    padding: 0 30px;
+}
+nav{
+    margin-left: 300px;
+}
+#main{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+nav #main li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+}
+nav #main li a:hover{
+    color: red;
+}
+i{
+    color: #2c3e50;
+}
+.product-content{
+    border: 1px solid gray;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 60px;
+    height: 300px;
+    border-radius: 10px;
+}
+.title-admin{
+    background: gray;
+    border-radius: 10px 10px 0 0;
+    height: 50px;
+    width: 400px;
+}
+.title-admin h3{
+   position: relative;
+   top: 15px;
+   font-size: 20px;
+}
+.product-adm{
+    margin-left: 30px;
+    line-height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.product-adm a{
+    text-decoration: none;
+    color: rgb(48, 46, 46);
+}
+.product-adm a:hover{
+    color: red;
+}
+hr{
+    width: 400px;
+    position: relative;
+    right: 30px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 36% 59%;
+}
+.product-add{
+    border:1px solid gray;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 600px;
+}
+.product-add-item h3{
+    margin-left: 3pc;
+    font-size: 30px;
+    padding: 23px 30px;
+}
+
+form{
+    margin-left: 5pc;
+    
+}
+input{
+    font-size: 26px;
+    margin-top: 25px;
+    border-radius: 3px;
+}
+button{
+    margin-top: 15px;
+    font-size: 23px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100px;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    background: #2c3e50;
+}
+footer{
+    background-color: gray;
+    height: 70px;
+    margin-top: 20px;
+}
+footer p{
+    text-align: center;
+    padding: 30px 0;
+}
+.error_product{
+    margin-left: 81px;
+    margin-top: 15px;
+    color: red;
+    font-size: 20px;
+}
+.success_product{
+    color: #2ecc71;
+}

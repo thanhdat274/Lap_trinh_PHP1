@@ -1,0 +1,133 @@
+/* input */
+/* form */
+.res-container {
+    width: 882px;
+    height: 691px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+}
+
+.res-container>h1 {
+    text-align: center;
+    margin: 31px;
+    color: #874B23;
+}
+
+.res-form>h3 {
+    margin: 25px 31px 25px 31px;
+    color: #874B23;
+    line-height: 24px;
+    font-size: 24px;
+    font-family: Noto Serif;
+}
+
+.res-form-user {
+    padding: 23px 23px 0px 23px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.res-form-user>input {
+    width: 372px;
+    height: 50px;
+    background-color: #E9E2D5;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    line-height: 24px;
+    font-size: 21px;
+    font-family: Noto Serif;
+}
+
+.res-form-email-pass {
+    margin: auto;
+    text-align: center;
+    margin-top: 42px;
+
+}
+
+.res-form-email-pass>input {
+    width: 825px;
+    height: 50px;
+    background-color: #E9E2D5;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    line-height: 24px;
+    font-size: 21px;
+    font-family: Noto Serif;
+}
+
+.res-create-date {
+    margin-left: 23px;
+
+}
+
+.res-create-date>select {
+    width: 80px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #874B23;
+    margin: 0px 0px 0px 23px;
+    color: #874B23;
+    text-align: center;
+    padding-left: 10px;
+}
+.res-gender {
+    color: #874B23;
+    margin-left: 31px;
+    font-size: 19px;
+    font-family: Noto Serif;
+    line-height: 25.88px;
+}
+.res-gender > input {
+    width: 17px;
+    height: 17px;
+    border-radius: 2px;
+    outline: none;
+    margin-left: 65px;
+}
+.checkbox-gd {
+    margin-left: 60px;
+    font-size: 14px;
+    font-family: Noto Serif;
+    line-height: 25.88px;
+}
+.res-radio {
+    margin-left: 31px;
+}
+.res-radio > span {
+    margin-left: 10px;
+    color: #874B23;
+    font-size: 14px;
+    font-family: Noto Serif;
+    line-height: 25.88px;
+}
+.form-submit-res {
+    width: 153px;
+    height: 44px;
+    border-radius: 20px;
+    text-align: center  ;
+    margin: auto;
+    margin-top: 25px;
+    border: 1px solid #E9E2D5;
+    background-color: #E9E2D5;
+}
+.form-submit-res > button{
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    margin: 10px;
+    background-color: #E9E2D5 ;
+    color: #874B23;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.form-submit-res > p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #BD1818;
+    cursor: pointer;
+}

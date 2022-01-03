@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px 0;
+}
+
+.wraper {
+    width: 1080px;
+    height: 700px;
+    margin: auto;
+}
+
+.left {
+    width: 520px;
+    height: 700px;
+    float: left;
+}
+
+.anh {
+    width: 520px;
+    height: 700px;
+    float: left;
+}
+
+.right {
+    width: 560px;
+    height: 700px;
+    float: left;
+}
+
+.hop {
+    width: 360px;
+    height: 300px;
+    margin: 200px 100px;
+}
+
+.hop h1 {
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+p {
+    margin: 50px 20px;
+}
+#Login {
+    width: 360px;
+    height: 40px;
+    background: rgb(64, 183, 212);
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+}

@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px 0;
+}
+
+.wraper {
+    width: 1080px;
+    height: 700px;
+    margin: auto;
+}
+
+.left {
+    width: 520px;
+    height: 700px;
+    float: left;
+}
+
+.anh {
+    width: 520px;
+    height: 700px;
+    float: left;
+}
+
+.right {
+    width: 560px;
+    height: 700px;
+    float: left;
+}
+
+.hop {
+    width: 360px;
+    height: 500px;
+    margin: 100px 100px;
+}
+
+.hop h1 {
+    margin: 0px 0 20px 0;
+}
+
+#Email {
+    width: 360px;
+    height: 40px;
+    border: 1px solid aqua;
+    margin: 5px 0 10px 0;
+    padding: 0 10px;
+}
+
+#pass {
+    width: 360px;
+    height: 40px;
+    margin: 5px 0 10px 0;
+    border: 1px solid aqua;
+    padding: 0 10px;
+}
+
+.remember {
+    width: 360px;
+    height: 20px;
+    margin: 20px 0;
+}
+
+.checkbox1 {
+    float: left;
+}
+
+#check {
+    margin: 0 10px 0 0;
+}
+
+.forgot {
+    float: right;
+}
+
+.forgot a {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(64, 183, 212);
+}
+
+.forgot a:hover {
+    color: rgb(64, 183, 212);
+}
+
+#Login {
+    width: 360px;
+    height: 40px;
+    background: rgb(64, 183, 212);
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+}
+
+#Login-Gmail {
+    width: 360px;
+    height: 40px;
+    background: rgb(36, 30, 121);
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+
+p {
+    margin: 50px;
+}
+
+p a {
+    text-decoration: none;
+    color: rgb(64, 183, 212);
+}
+
+p a:hover {
+    color: rgb(64, 183, 212);
+}
