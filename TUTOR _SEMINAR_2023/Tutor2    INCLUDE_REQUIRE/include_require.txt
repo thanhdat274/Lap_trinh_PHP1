@@ -1,0 +1,14 @@
+Include & Require : Dùng để chèn tệp php này đến tệp php khác
+
+Include : 
+chèn nội dung từ tệp vào trang web, nếu tệp k tồn tại hoặc có lỗi
+nó sẽ chỉ hiện thị cảnh báo nhưng vẫn tiếp tục thực thi câu lệnh php
+
+Include_once: Chèn nội dung từ tệp vào trang web 1 lần duy nhất
+Nếu tệp đã được chèn trước đó , nó sẽ k chèn lại
+
+Require: yêu cầu tệp phải tồn tại và chèn nội dung vào trang web
+Nếu tệp k tồn tại hoặc có lỗi sẽ ngừng thực thi toàn bộ doạn mã php và hiển thị lỗi
+
+Require_once : yêu cầu tệp tồn tại và chèn nội dung vào trang web một lần duy nhât
+Nếu tệp đã được chèn trước đó , nó sẽ k chèn lại

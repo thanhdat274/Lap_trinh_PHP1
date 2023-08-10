@@ -1,0 +1,17 @@
+SESSION
+
+Client Request --> Lưu trữ trên server
+
+- Lưu trữ thông tin trên sever
+- Được tạo khi người dùng bắt đầu 1 phiên làm việc gửi yêu cầu dữ liệu lên và lưu trữ ở sever
+- Chỉ bị xóa khi trình duyệt tắt đi hoặc kết thúc 1 phiên làm việc
+- bảo mật tốt vì không dễ dàng sửa đổi vì chúng được lưu trữ ở phía máy chủ.
+
+COOKIE
+
+Truy cập website --> Dữ liệu cookie lưu trữ trong máy tính
+
+- Được lưu trữ trên trình duyệt phía client
+- Dễ dàng bị đánh cắp hoặc sửa đổi vì lưu trữ trên trình duyệt, tính bảo mật kém
+- Dữ liệu sẽ được lưu tạm thời trên trình duyệt đến khi nó hết hạn hoặc xóa toàn bộ
+- Thời gian tồn tại được xác định

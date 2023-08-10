@@ -1,0 +1,206 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+a:hover {
+    background-color: #ddd;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.edit-btn, .delete-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #3498db;
+    margin-right: 5px;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+}
+
+
+th .add-btn {
+    margin-left: 10px;
+}
+
+.table-container {
+    text-align: left;
+    margin-top: 20px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Căn phải các phần tử trong container */
+    margin-right: 10px; /* Khoảng cách lề bên phải */
+}
+
+.search-input {
+    max-width: 150px; /* Độ rộng tối đa của ô input */
+    padding: 8px 12px; /* Kích thước padding của ô input */
+    border: 1px solid #ccc; /* Viền của ô input */
+    border-radius: 5px; /* Bo cạnh của ô input */
+    margin-right: 10px; /* Khoảng cách giữa trường tìm kiếm và nút thêm */
+}
+
+.add-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 30px;
+}
+
+.search-button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+span{
+    display: block;
+    color: red;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #45a049;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.add-form {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical; /* Cho phép điều chỉnh chiều cao của textarea */
+}
+
+.submit-button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}

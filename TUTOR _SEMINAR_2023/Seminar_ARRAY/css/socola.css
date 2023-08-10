@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Khoảng cách giữa các hàng */
+}
+
+h1 {
+    font-size: 36px;
+    color: #5a3b22;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    width: 400px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="submit"] {
+    background-color: #5a3b22;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+    background-color: #724f33;
+}
+
+
+.row {
+    display: flex;
+    gap: 10px; /* Khoảng cách giữa các ô sô-cô-la */
+    border: 2px solid #5a3b22;
+    border-radius: 6px;
+    position: relative;
+}
+
+.square-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.square-container span {
+    background-color: #f5f5f5;
+    padding: 5px;
+    border: 2px solid #5a3b22;
+    border-radius: 50%;
+    font-weight: bold;
+    position: absolute;
+    top: -18px;
+}
